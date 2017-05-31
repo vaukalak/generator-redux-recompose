@@ -1,0 +1,52 @@
+{
+  "name": "generator-redux-recompose",
+  "version": "1.0.0",
+  "description": "Generate react component linked to redux and recompose",
+  "homepage": "",
+  "author": {
+    "name": "vaukalak",
+    "email": "lahmataja.pa4vara@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "react",
+    "redux",
+    "recompose",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.6.0",
+    "yeoman-assert": "^3.0.0",
+    "coveralls": "^2.12.0",
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "license": "MIT"
+}
