@@ -1,4 +1,4 @@
-nnimport React, { PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { compose } from 'recompose';
 
 const <%= componentName %> = () => (

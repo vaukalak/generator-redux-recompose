@@ -12,4 +12,4 @@ const enhancer = compose(
   connect(mapStateToProps, mapDispatchToProps)
 );
 
-export default enhacer(<%= componentName %>);
+export default enhancer(<%= componentName %>);

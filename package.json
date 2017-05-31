@@ -1,6 +1,6 @@
 {
   "name": "generator-redux-recompose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate react component linked to redux and recompose",
   "homepage": "",
   "author": {
@@ -12,6 +12,10 @@
     "generators"
   ],
   "main": "generators/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaukalak/generator-redux-recompose.git"
+  },
   "keywords": [
     "react",
     "redux",
